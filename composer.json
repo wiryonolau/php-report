@@ -1,0 +1,32 @@
+{
+    "name": "itseasy/php-report",
+    "description": "PHP report engine",
+    "type": "library",
+    "keywords": [
+        "php",
+        "report"
+    ],
+    "require": {
+        "php" : "^7.4"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Itseasy\\Report\\": "src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Itseasy\\Report\\Test\\" : "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wiryonolau",
+            "email": "wiryonolau@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
